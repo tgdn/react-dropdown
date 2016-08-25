@@ -45,6 +45,22 @@ const MyMenu = props => {
 }
 ```
 
+## Configuration
+Different prop types are available for use on `DropdownButton` or directly on `Dropdown`
+
+Prop|Default|Value|Description
+----|-------|-----|-----------
+`opened`|false|true/false|Whether the dropdown should be visible after mounting
+`noArrow`|false|true/false|If true, no arrow will be displayed. The default is with an arrow, and thus false
+`arrowLeft`|false|true/false|If true, the arrow will be on the left of the dropdown, otherwise arrow stays untouched
+`arrowRight`|false|true/false|If true, the arrow will be on the right of the dropdown, otherwise arrow stays untouched
+`center`|false|true/false|Whether to align the dropdown and the button so they are horizontally aligned
+`pullLeft`|false|true/false|If true, the dropdown will be shifted all the way to the left
+`pullRight`|false|true/false|If true, the dropdown will be shifted all the way to the right
+`alignLeft`|false|true/false|If true, the dropdown will left side will be aligned with the container's left side
+`alignRight`|false|true/false|If true, the dropdown will right side will be aligned with the container's right side
+
+
 ## Done
 - Simple UI
 - Reactive Component
