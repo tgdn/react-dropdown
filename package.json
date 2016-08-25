@@ -1,16 +1,23 @@
 {
   "name": "@tgdn/react-dropdown",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "An accessible, easy to use, customizable dropdown library for the web",
   "scripts": {
     "start": "node server.js",
     "build": "npm run build:js && npm run build:css",
     "build:js": "babel src/ -d lib/ --ignore src/components",
     "build:css": "node-sass css/index.sass lib/css/_react-dropdown-menu.css",
-    "storybook": "start-storybook -p 9001 -s ./public"
+    "storybook": "start-storybook -p 9001 -s ./public",
+    "build-storybook": "build-storybook -s ./public -o .out",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgdn/react-dropdown.git"
   },
   "license": "MIT",
   "dependencies": {
+    "@kadira/storybook-deployer": "^1.1.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-react-html-attrs": "^2.0.0",
     "babel-plugin-transform-class-properties": "^6.10.2",
