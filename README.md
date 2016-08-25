@@ -4,9 +4,9 @@ An accessible, easy to use, customizable dropdown library for the web.
 
 Ongoing work on the library.
 
-<img src="screenshots/1.png" alt="React Dropdown Screenshot 1" width="270" height="">
-<img src="screenshots/2.png" alt="React Dropdown Screenshot 2" width="370" height="">
-<img src="screenshots/3.png" alt="React Dropdown Screenshot 3" width="370" height="">
+<img src="https://github.com/tgdn/react-dropdown/blob/master/screenshots/1.png" alt="React Dropdown Screenshot 1" width="270" height="">
+<img src="https://github.com/tgdn/react-dropdown/blob/master/screenshots/2.png" alt="React Dropdown Screenshot 2" width="370" height="">
+<img src="https://github.com/tgdn/react-dropdown/blob/master/screenshots/3.png" alt="React Dropdown Screenshot 3" width="370" height="">
 
 
 ## Playground
