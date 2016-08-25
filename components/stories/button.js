@@ -25,7 +25,6 @@ storiesOf('Button', module)
         <DropdownButton title='Click me' center>
             <DropdownMenu>
                 <DropdownMenuItem onClick={(e) => console.log(e)} closeOnClick>Click me</DropdownMenuItem>
-                <DropdownMenuItem>won't close on click</DropdownMenuItem>
                 <DropdownMenuItem closeOnClick>Check it out</DropdownMenuItem>
                 <DropdownMenuItem closeOnClick>Log out</DropdownMenuItem>
             </DropdownMenu>
@@ -34,7 +33,6 @@ storiesOf('Button', module)
         <DropdownButton title='Arrow left' arrowLeft>
             <DropdownMenu>
                 <DropdownMenuItem closeOnClick>Click me</DropdownMenuItem>
-                <DropdownMenuItem>won't close on click</DropdownMenuItem>
                 <DropdownMenuItem closeOnClick>Check it out</DropdownMenuItem>
                 <DropdownMenuItem closeOnClick>Log out</DropdownMenuItem>
             </DropdownMenu>
@@ -43,7 +41,6 @@ storiesOf('Button', module)
         <DropdownButton title='Pull right arrow left' pullRight arrowLeft>
             <DropdownMenu>
                 <DropdownMenuItem closeOnClick>Click me</DropdownMenuItem>
-                <DropdownMenuItem>won't close on click</DropdownMenuItem>
                 <DropdownMenuItem closeOnClick>Check it out</DropdownMenuItem>
                 <DropdownMenuItem closeOnClick>Log out</DropdownMenuItem>
             </DropdownMenu>
@@ -52,7 +49,6 @@ storiesOf('Button', module)
         <DropdownButton title='Align right arrow right' alignRight arrowRight>
             <DropdownMenu>
                 <DropdownMenuItem closeOnClick>Click me</DropdownMenuItem>
-                <DropdownMenuItem>won't close on click</DropdownMenuItem>
                 <DropdownMenuItem closeOnClick>Check it out</DropdownMenuItem>
                 <DropdownMenuItem closeOnClick>Log out</DropdownMenuItem>
             </DropdownMenu>
@@ -61,7 +57,6 @@ storiesOf('Button', module)
         <DropdownButton title='No arrow alignRight' alignRight noArrow>
             <DropdownMenu>
                 <DropdownMenuItem closeOnClick>Click me</DropdownMenuItem>
-                <DropdownMenuItem>won't close on click</DropdownMenuItem>
                 <DropdownMenuItem closeOnClick>Check it out</DropdownMenuItem>
                 <DropdownMenuItem closeOnClick>Log out</DropdownMenuItem>
             </DropdownMenu>

@@ -1,7 +1,7 @@
 {
   "name": "@tgdn/react-dropdown",
   "version": "0.0.1",
-  "description": "Simple dropdown menu for ReactJS",
+  "description": "An accessible, easy to use, customizable dropdown library for the web",
   "scripts": {
     "start": "node server.js",
     "build": "npm run build:js && npm run build:css",
