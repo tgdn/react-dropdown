@@ -23,7 +23,7 @@ npm install --save @tgdn/react-dropdown
 ```
 
 ## Usage
-```
+```jsx
 import React from 'react'
 import {
     Dropdown,
